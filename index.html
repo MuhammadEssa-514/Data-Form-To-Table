@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table data</title>
+</head>
+<body>
+    <marquee style="background: black ";>
+        Muhammaed Essa 514 Nagri
+    </marquee>
+    <form>
+    <center>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <td><input type="text" name="studentname" id="studentname"></td>
+                </tr>
+            </thead>
+            <tbody>
+              
+                <tr>
+                    <th>Father Name</th>
+                    <td><input type="text" name="fathername" id="fathername"></td>
+                </tr>
+                <tr>
+                    <th>Class</th>
+                    <td><input type="text" name="class" id="class"></td>
+                </tr>
+                <tr>
+                    <th>Roll No</th>
+                    <td><input type="number" name="rollno" id="rollno"></td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="text" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td><input type="text" name="gender" id="gender"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr >
+                    <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td> <br>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Father Name</th>
+                    <th>Class</th>
+                    <th>Roll No</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+
+
+<script src="app.js"></script>
+</body>
+</html>
